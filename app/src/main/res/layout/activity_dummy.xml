@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="education.exambites.dummy">
+
+
+
+    <qdx.bezierviewpager_compile.vPage.BezierViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <qdx.bezierviewpager_compile.BezierRoundView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/round_view"
+        android:layout_below="@+id/viewpager"/>
+
+</RelativeLayout>

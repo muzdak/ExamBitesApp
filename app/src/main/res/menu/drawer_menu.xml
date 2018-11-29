@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/quiz"
+            android:title="Quiz"
+            android:icon="@drawable/ic_question_answer_black_24dp"></item>
+
+        <item
+            android:id="@+id/shareApp"
+            android:title="Share The App"
+            android:icon="@drawable/ic_share_black_24dp"></item>
+
+        <item
+            android:id="@+id/query"
+            android:title="Query? Call us"
+            android:icon="@drawable/ic_call_black_24dp"></item>
+
+        <item
+            android:id="@+id/termsAndConditions"
+            android:title="Terms/Conditions"
+            android:icon="@drawable/ic_done_black_24dp"></item>
+
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/aboutus"
+            android:title="About us"
+            android:icon="@drawable/logo"></item>
+    </group>
+</menu>

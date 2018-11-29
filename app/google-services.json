@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "170850409658",
+    "firebase_url": "https://exambites-39da2.firebaseio.com",
+    "project_id": "exambites-39da2",
+    "storage_bucket": "exambites-39da2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170850409658:android:193136a7a3ce0a4c",
+        "android_client_info": {
+          "package_name": "education.exambites"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "170850409658-3abm1mtmic482nbdah1gs7em1t14fsfp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "education.exambites",
+            "certificate_hash": "3484cfd9781cbe8eb7bec9e83739153f2e7c95d2"
+          }
+        },
+        {
+          "client_id": "170850409658-lqgs5fdiet4o85gcp9gtindkvp6o2cmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANK_avfaQxjfnuZFoy3iIcnYlDfmK2Bjg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "170850409658-lqgs5fdiet4o85gcp9gtindkvp6o2cmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

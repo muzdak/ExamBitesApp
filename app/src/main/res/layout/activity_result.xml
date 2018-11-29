@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="education.exambites.resultActivity"
+    android:background="@drawable/exambitesbackground">
+
+
+    <TextView
+        android:id="@+id/rTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="36dp"
+        android:text="Total"
+        android:textSize="24dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:id="@+id/rCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:textSize="24dp"
+        android:text="Correct"
+        android:layout_below="@+id/rTotal"
+        android:layout_alignLeft="@+id/rTotal"
+        android:layout_alignStart="@+id/rTotal"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <TextView
+        android:id="@+id/rWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/rCorrect"
+        android:textSize="24dp"
+        android:layout_alignStart="@+id/rCorrect"
+        android:layout_below="@+id/rCorrect"
+        android:layout_marginTop="117dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:text="Wrong" />
+
+    <TextView
+        android:id="@+id/dTotal"
+
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/rTotal"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:text="TextView"
+        android:textColor="@android:color/holo_orange_dark"/>
+
+    <TextView
+        android:id="@+id/dCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/dTotal"
+        android:layout_alignRight="@+id/dTotal"
+        android:layout_alignTop="@+id/rCorrect"
+        android:text="TextView"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <TextView
+        android:id="@+id/dWrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dCorrect"
+        android:layout_alignStart="@+id/dCorrect"
+        android:layout_alignTop="@+id/rWrong"
+        android:text="TextView"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/tryAgain_btn"
+        android:onClick="tryAgain"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:text="Try Again"
+        android:textSize="15dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_below="@+id/dWrong"
+        android:layout_alignLeft="@+id/imageView7"
+        android:layout_alignStart="@+id/imageView7" />
+
+    <Button
+        android:id="@+id/nextTopic_btn"
+        android:onClick="nextTopic"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Next Topic"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_orange_light"
+        app:srcCompat="@drawable/background_quiz"
+        android:layout_alignBottom="@+id/tryAgain_btn"
+        android:layout_toRightOf="@+id/tryAgain_btn"
+        android:layout_toEndOf="@+id/tryAgain_btn" />
+
+    <Button
+        android:id="@+id/changeSubject_btn"
+        android:onClick="changeSubject"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_orange_light"
+        android:text="change subject"
+        android:layout_alignBottom="@+id/tryAgain_btn"
+        android:layout_toLeftOf="@+id/tryAgain_btn"
+        android:layout_toStartOf="@+id/tryAgain_btn" />
+</RelativeLayout>

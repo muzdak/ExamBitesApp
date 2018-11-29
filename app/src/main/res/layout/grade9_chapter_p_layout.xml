@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Chapter"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="6dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="4dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        android:layout_marginLeft="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"
+        android:id="@+id/view"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="8dp" />
+
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline9"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25"/>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/physica_quantities_and_measurements1"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/imgChapter1"
+        android:onClick="chapter1"/>
+
+    <TextView
+        android:id="@+id/chapterNo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter No.1"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="157dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintVertical_bias="0.253" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics Quantities and Measurements"
+        android:textSize="18dp"
+        android:ems="8"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline8"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.43"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/kinematics2"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        android:layout_marginTop="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter No.2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/guideline9"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="157dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kinematics"
+        android:textSize="18dp"
+        android:ems="8"
+
+
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        android:layout_marginRight="104dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.682"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="1.0" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline10"
+        app:layout_constraintGuide_begin="378dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.61"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/dynamics3"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter No.3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginRight="157dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="53dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dynamics"
+        android:textSize="18dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline10"
+        android:layout_marginRight="195dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline8"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.707"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.992" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline11"
+        app:layout_constraintGuide_begin="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.79"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/turning_effect_of_forces4"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter No.4"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="157dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turning Effect of Forces"
+        android:textSize="18dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline11"
+        android:layout_marginRight="79dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline10"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.654"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.984" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline12"
+        app:layout_constraintGuide_begin="643dp"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.97"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:srcCompat="@drawable/gravitation5"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chapter No.5"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="157dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gravity"
+        android:textSize="18dp"
+        android:layout_marginBottom="31dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        android:layout_marginRight="218dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline11"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.864"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.992" />
+
+
+
+</android.support.constraint.ConstraintLayout>
