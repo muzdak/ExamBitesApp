@@ -27,6 +27,7 @@ public class dummy extends AppCompatActivity {
         BezierViewPager view_pager = (BezierViewPager)findViewById(R.id.viewpager);
         view_pager.setAdapter(cardAdapter);
 
+
         BezierRoundView round_view = (BezierRoundView)findViewById(R.id.round_view);
         round_view.attach2ViewPage(view_pager);
     }
